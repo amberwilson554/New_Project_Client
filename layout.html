@@ -1,0 +1,18 @@
+<template name='layout'>
+    <body>
+        
+        <hr>
+
+        <div>
+            <a href='/'>Create</a> | <a href='/list'>List</a>
+        </div>
+
+        <div class='container' style='margin-top: 10px;'>
+            {{> yield}}
+
+            <footer>
+                <p>Copyright &copy; Primary Objects 2015</p>
+            </footer>
+        </div>
+    </body>
+</template>

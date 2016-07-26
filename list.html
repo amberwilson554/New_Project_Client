@@ -1,0 +1,28 @@
+<template name='list'>
+    <h2>List View</h2><br><br>
+    <div>              
+       {{#each list}}
+
+           <li>
+                <b>Title:</b> 
+                   {{Title}}<br>
+
+ 		<b>URL:</b> 
+                   {{URL}}<br>
+
+	        <b>Description:</b> 
+                   {{Description}}<br>
+
+		<b>Created At:</b> 
+                  {{CreatedAt}}<br>
+		<a href="#" class="delete-field"> Delete Entry </a>
+           </li>
+           <br>
+
+       {{/each}}
+
+    </div>
+</template>
+
+
+
